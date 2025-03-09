@@ -1,0 +1,2 @@
+C:/Users/Lulas/Desktop/qr_scan_plantilla-master/android/app/.cxx/Debug/c3r5g2c2/x86/CMakeFiles/edit_cache.dir
+C:/Users/Lulas/Desktop/qr_scan_plantilla-master/android/app/.cxx/Debug/c3r5g2c2/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+C:/Users/Lulas/Desktop/FP MULTIPLATAFORMAS (DAM2)/Multimedia-dispositivos/romina_mosqueira_Tarea_UD3/romina_mosqueira_Tarea_UD3/android/app/.cxx/Debug/1w3z4k6n/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Lulas/Desktop/FP MULTIPLATAFORMAS (DAM2)/Multimedia-dispositivos/romina_mosqueira_Tarea_UD3/romina_mosqueira_Tarea_UD3/android/app/.cxx/Debug/1w3z4k6n/x86_64/CMakeFiles/rebuild_cache.dir
