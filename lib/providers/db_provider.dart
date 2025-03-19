@@ -10,6 +10,7 @@ class DbProvider {
   DbProvider._();
 
   Future<Database> get database async {
+    // ignore: prefer_conditional_assignment
     if (_database == null) _database = await initDB();
     return _database!;
   }

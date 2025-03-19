@@ -1,0 +1,2 @@
+C:/Users/Lulas/Desktop/romina_mosqueira_Tarea_UD4/qr_scan_plantilla-master/android/app/.cxx/Debug/at52633y/x86/CMakeFiles/edit_cache.dir
+C:/Users/Lulas/Desktop/romina_mosqueira_Tarea_UD4/qr_scan_plantilla-master/android/app/.cxx/Debug/at52633y/x86/CMakeFiles/rebuild_cache.dir

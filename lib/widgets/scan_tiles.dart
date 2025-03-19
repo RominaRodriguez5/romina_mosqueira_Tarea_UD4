@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:qr_scan/providers/scan_list_provider.dart';
+import 'package:qr_scan/utils/utils.dart';
 
 class ScanTiles extends StatelessWidget {
   final String tipos;
@@ -36,10 +37,10 @@ class ScanTiles extends StatelessWidget {
           subtitle: Text(scans[index].id.toString()),
           trailing: Icon(Icons.keyboard_arrow_right, color: Colors.grey),
           onTap: () {
-            print(scans[index].id);
+            launchURL(context, scans[index]);
             print(scans[index].valor);
             print(scans[index].tipos);
-            scanListProvider.esborraPerId(1);
+            //scanListProvider.esborraPerId(1);
           },
         ),
       ),

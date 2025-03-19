@@ -17,10 +17,11 @@ class HomeScreen extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.delete_forever),
             onPressed: () {
+              // Borrar todos los escaneos
               Provider.of<ScanListProvider>(context, listen: false)
                   .esborraTots();
             },
-          )
+          ),
         ],
       ),
       body: _HomeScreenBody(),
@@ -36,15 +37,12 @@ class _HomeScreenBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Canviar per a anar canviant entre pantalles
     final uiProvider = Provider.of<UiProvider>(context);
+    // Canviar per a anar canviant entre pantalles
     final currentIndex = uiProvider.selectedMenuOpt;
+
     final scanListProvider =
         Provider.of<ScanListProvider>(context, listen: false);
-
-    //Creacion Temp de la bbdd
-    //DbProvider.db.database;
-    //DbProvider.db.getAllScans().then(print);
 
     switch (currentIndex) {
       case 0:
